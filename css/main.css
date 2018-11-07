@@ -57,15 +57,35 @@ section#contents {
 hr {
 	border: none;
 	width: 100%;
-	height: 1.5px;
+	height: 1px;
 	background-color: #607D8B;
+}
+
+span {
+	display: inline-block;
+}
+
+span.appear {
+	color: #EF6C00;
+}
+
+span.unpublished {
+	color: #607D8B;
+}
+
+a {
+	color: #0097A7;
+}
+
+li {
+	margin-bottom: 5px;
 }
 
 table {
 	margin: 0 auto;
 	width: 80%;
   min-width: 500px;
-  max-width: 700px;
+  max-width: 800px;
 	text-align: left;
 }
 
@@ -102,9 +122,8 @@ div.section {
 	margin: 0 auto;
 	width: 80%;
   min-width: 500px;
-  max-width: 700px;
+  max-width: 800px;
 	text-align: left;
-	/* background-color: rgb(200, 240, 202); */
 }
 
 footer {

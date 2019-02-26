@@ -13,28 +13,12 @@ header {
 	left: 0px;
 	width: 100%;
 	min-width: 800px;
-	height: 70px;
+	height: 60px;
 	text-align: left;
 	color: #FFFFFF;
 	background-color: #009688;
 	display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
 	user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
-
-header img#kyome_icon {
-	position: absolute;
-	margin: 0;
-	padding: 0px;
-	top: 10px;
-	left: 35px;
-	width: 50px;
-	height: 50px;
 }
 
 header h2#profile_link {
@@ -42,16 +26,20 @@ header h2#profile_link {
 	margin: 0px 5px 0px 5px;
 	padding: 0px;
 	top: 0px;
-	left: 100px;
-	line-height: 70px;
+	left: 40px;
+	line-height: 60px;
 }
 
-section#contents {
-	margin-top: 80px;
-	padding: 0;
+section:empty {
 	width: 100%;
-	height: 100%;
+	height: 80px;
+}
+
+section {
+	width: 100%;
+	height: auto;
 	color: #444444;
+	text-align: left;
 }
 
 hr {
@@ -62,6 +50,7 @@ hr {
 }
 
 span {
+	font-size: 16px;
 	display: inline-block;
 }
 
@@ -84,8 +73,8 @@ li {
 table {
 	margin: 0 auto;
 	width: 80%;
-  min-width: 500px;
-  max-width: 800px;
+	min-width: 650px;
+	max-width: 800px;
 	text-align: left;
 }
 
@@ -115,14 +104,16 @@ span.h3span {
 
 img#selfie {
 	width: 100%;
+	min-width: 200px;
+	max-width: 300px;
 	height: auto;
 }
 
-div.section {
+div.contents {
 	margin: 0 auto;
 	width: 80%;
-  min-width: 500px;
-  max-width: 800px;
+	min-width: 650px;
+	max-width: 800px;
 	text-align: left;
 }
 

@@ -5,6 +5,7 @@ html, body {
 	height: 100%;
 	text-align: center;
 	font-family: "Sawarabi Gothic", 'Noto Sans', sans-serif;
+	text-size-adjust: 100%;
 }
 
 header {
@@ -50,8 +51,8 @@ hr {
 }
 
 span {
-	font-size: 100%;
 	display: inline-block;
+	font-size: 100%;
 }
 
 span.appear {
